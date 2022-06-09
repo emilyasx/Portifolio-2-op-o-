@@ -1,0 +1,32 @@
+:root {
+    --fonte-familia-principal: "Raleway", sans-serif;
+
+    --largura-home: 85%;
+    --largura-tablet: 90%;
+    --largura-mobile: 95%;
+
+    --fonte-peso-input: 300;
+    --fonte-tamanho-input-label: 20px;
+
+    --cor-primaria: #2a7ae4;
+    --cor-secundaria: #f5f5f5;
+    --cor-terciaria: #000000;
+    --cor-branco: #ffffff;
+    --cor-destacado-item: rgb(212, 228, 250);
+    --cor-sucesso: #047900;
+    --cor-aviso: #df2525;
+
+}
+
+
+
+body {
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-familia-principal);
+    font-style: normal;
+}
+
+p {
+    margin: 1.5rem auto;
+    text-align: center;
+}

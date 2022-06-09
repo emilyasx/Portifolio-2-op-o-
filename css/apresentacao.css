@@ -1,0 +1,148 @@
+.container-apresentacao {
+    display: block;
+    margin: 0 auto;
+    width: var(--largura-home);
+}
+
+.apresentacao {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 4vw 2vw;
+}
+
+.apresentacao_conteudo {
+    width: 70%;
+}
+
+.apresentacao_conteudo h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.apresentacao_conteudo span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.apresentacao_conteudo h3,
+.apresentacao_conteudo span {
+    margin-bottom: 1.2vw;
+}
+
+.apresentacao_conteudo nav {
+    display: flex;
+    margin-top: 1.2vw;
+}
+
+.apresentacao_conteudo nav a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--cor-terciaria);
+}
+
+
+.apresentacao_conteudo nav a:hover {
+    font-weight: 700;
+    color: var(--cor-primaria);
+}
+
+
+.apresentacao_imagem {
+    width: 30%;
+}
+
+.apresentacao_imagem img {
+    border-radius: 90%;
+    width: 100%;
+}
+
+.apresentacao_imagem img:hover {
+    transform: scale(1.05, 1.05);
+}
+
+@media screen and (max-width: 850px) {
+
+    .container-apresentacao {
+        width: var(--largura-tablet);
+    }
+
+    .apresentacao_conteudo h3 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .apresentacao_conteudo span {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .apresentacao_conteudo nav a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .container-apresentacao {
+        width: var(--largura-tablet);
+    }
+
+    .apresentacao_conteudo h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .apresentacao_conteudo span {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .apresentacao_conteudo nav a {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .container-apresentacao {
+        width: var(--largura-mobile);
+        position: relative;
+        top: 18px;
+    }
+
+    .apresentacao {
+        flex-direction: none;
+        align-items: flex-start;
+        width: 110%;
+        margin: 0;
+    }
+
+    .apresentacao_conteudo h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .apresentacao_conteudo span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .apresentacao_conteudo nav a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .apresentacao_imagem {
+        width: 25%;
+    }
+}
