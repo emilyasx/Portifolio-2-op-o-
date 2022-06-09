@@ -107,7 +107,7 @@
     .navegacao_nome,
     .navegacao_links__link {
         position: relative;
-        left: 0px;
+        left: px;
         font-size: 10px;
         line-height: 10px;
     }
